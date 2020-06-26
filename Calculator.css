@@ -1,0 +1,57 @@
+body {
+    font-size: 64px;
+    background-color: white;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    background-color: black;
+    width: 340px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 80px 80px 80px 80px;
+  grid-template-rows: 80px 80px;
+  grid-template-areas: 
+  "header header header header" 
+  "main main main main" 
+  "main main main main" 
+  "main main main main" 
+  "main main main main" 
+  "main main main main";
+  margin-top: 60px;
+}
+.Number {
+  grid-area: header;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  width: 320px;
+  font-size: 50px;
+  background-color: black;
+  color: white;
+  text-align: right;
+  outline: none;
+  border: black;
+}
+.btn {
+  background-color: dimgray;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 4px 2px;
+  border-radius: 50%;
+  outline: none;
+}
+.silver {
+  background-color: silver;
+  color: black;
+  outline: none;
+}
+.orange {
+  background-color: orange;
+  outline: none;
+}
+button {
+  font-size: 26px;
+}
